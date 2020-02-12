@@ -91,6 +91,15 @@ sum(comm.pa[1, ])
 rich <- apply(X = comm.pa, MARGIN = 1, FUN = sum)
 summary(rich)
 
+# quantas áreas tem riqueza igual a sum?
+sum(rich == 1)
+
+# qual área é?
+which(rich == 1)
+
+# quais caracteristicas desse site?
+envir.coord[which(rich == 1), ]
+
 # Juntando tabelas ####
 envir$Sites
 
