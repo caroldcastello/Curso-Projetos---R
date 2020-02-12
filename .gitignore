@@ -5,3 +5,6 @@
 
 # ignorar aquivos .xlsx
 *.xlsx
+
+#ignorar pastas
+docs
