@@ -5,6 +5,7 @@
 
 # ignorar aquivos .xlsx
 *.xlsx
+*.html
 
 #ignorar pastas
 docs
