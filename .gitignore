@@ -8,3 +8,6 @@
 
 #ignorar pastas
 docs
+
+#ignorar anotações
+bash.R
