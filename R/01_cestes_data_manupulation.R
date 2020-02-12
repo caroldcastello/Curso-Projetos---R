@@ -195,7 +195,7 @@ head(comm.total)
 names(comm.total)
 
 # Exportando as planilhas ####
-write.csv(x = comm.total,
+write.csv2(x = comm.total,
           file = "data/01_data_format_combined.csv",
           row.names = FALSE)
 
